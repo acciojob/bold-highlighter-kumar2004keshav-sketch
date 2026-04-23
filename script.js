@@ -1,8 +1,10 @@
 function highlight() {
-	 const strong = document.querySelectorAll("strong");
-    boldWords.forEach(function(el) {
-        el.style.color = "rgb(0, 128, 0)";
+	
+    const boldWords = document.querySelectorAll("strong");
+    boldWords.forEach(function(word) {
+        word.style.color = "rgb(0, 128, 0)";
     });
+
     
 
 
@@ -11,9 +13,9 @@ function highlight() {
 
 function return_normal() {
 	
-const strong = document.querySelectorAll("strong");
-    boldWords.forEach(function(el) {
-        el.style.color = "rgb(0, 0, 0)";
+const boldWords = document.querySelectorAll("strong");
+    boldWords.forEach(function(word) {
+        word.style.color = "rgb(0, 0, 0)";
     });
 
     
